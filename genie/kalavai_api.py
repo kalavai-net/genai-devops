@@ -12,7 +12,7 @@ LITELLM_KEY = os.getenv("LITELLM_KEY")
 
 def _request_server(url, method, data=None, json=None, params=None):
     headers = {
-        "X-API-Key": API_KEY,
+        "X-API-KEY": API_KEY,
         "Content-Type": "application/json"
     }
     
